@@ -1,0 +1,42 @@
+@import url(sass.scss);
+
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+body::before {
+    display: block;
+    content: '';
+    height: 60px;
+} 
+
+@media (min-width: 768px) {
+    .news-input {
+    width: 50%;
+}
+}
+
+.logo{
+    margin-left:-150px;
+}
+
+.linkbutton{
+    font-family: 'Open Sans', sans-serif;
+    font-style:italic;
+    font-weight:800;
+}
+
+.quote{
+    font-family: 'Open Sans', sans-serif;
+    background: -webkit-linear-gradient(#FFE373, #FC9c54, #fd5e53, #4b3d60, #152852, #0b183a);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.btn{
+    background:#fc9c54;
+}
+
+.mt-n1 {
+    margin-right: -30rem;
+  }
