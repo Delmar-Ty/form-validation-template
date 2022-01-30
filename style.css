@@ -39,4 +39,16 @@ body::before {
 
 .mt-n1 {
     margin-right: -30rem;
-  }
+}
+
+.formDiv > div {
+    opacity: 0;
+    transition: all;
+    transition-duration: 200ms;
+}
+
+#formSubmitMsg {
+    opacity: 0;
+    transition: all;
+    transition-duration: 200ms;
+}
